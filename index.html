@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Email Subscription Project</title>
+</head>
+<body>
+  <div class="flex items-center justify-center h-screen bg-zinc-700">
+    <div class="bg-zinc-800 p-2  rounded-2xl">
+        <div class="flex flex-col md:flex-row">
+            <img src="./images/image.jpg" class="h-80 md:h-64 object-fit-contain rounded-l-xl md:rounded-r-none hover:scale-105" alt="image">
+            <div class="flex flex-col text-white items-center p-4 justify-center">
+                <h1 class="py-2">Get diet and fitness tips in your inbox</h1>
+                <p class="text-xs text-center md:text-left ">Eat better and excercise better, sign up for the Diet&Fitness newsletter</p>
+               <!-- <div class="flex flex-col md:flex-row mt-2">
+                <input type="text" placeholder="Enter your Email" class="p-3 px-4 my-2 placeholder:text-xs text-center focus:outline-none  border border-zinc-600 bg-zinc-800 md:text-left placeholder:md:text-left"/>
+                <button class="border p-2 px-5 py-3 text-xs px-3 border-lime-500  mx-2 bg-lime-800 hover:bg-lime-500">Subscribe</button>
+               </div> -->
+               <div class="flex md:items-center flex-col md:flex-row mt-2">
+                <input type="text" placeholder="Enter your Email" class="p-3 px-4 my-2 placeholder:text-xs text-center focus:outline-none border border-zinc-600 bg-zinc-800 md:text-left placeholder:md:text-left h-12"/> <!-- Added h-12 -->
+                <button class="border rounded p-2 px-5 py-3 text-xs px-3 border-lime-500 mx-2 bg-lime-800  hover:bg-lime-500 h-12">Subscribe</button> <!-- Added h-12 -->
+              </div>
+              
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
